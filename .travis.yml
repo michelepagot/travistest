@@ -9,7 +9,7 @@ python:
 # command to install dependencies
 script:
   - python main.py
-  - flake8 tests
+  - flake8 test
   - nosetests
 install:
   - pip install .
